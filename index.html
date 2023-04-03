@@ -5,61 +5,87 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML / CSS Reference Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!--This is the title of the page-->
+  <header role="banner">
   <h1>Reference Website</h1>
-
-  <h1>This is an example of heading 1</h1>
-  <h2>This is an example of heading 2</h2>
-  <h3>This is an example of heading 3</h3>
-  <h4>This is an example of heading 4</h4>
-  <h5>This is an example of heading 5</h5>
-  <h6>This is an example of heading 6</h6>
-
-  <p> This is an example of a paragraph </p>
-
   <ul>
-    <li>This is an example of Unordered list</li>
-    <li>This is an example of Unordered list</li>
-    <li>This is an example of Unordered list</li>
+    <li><a href="#nav">Navigation</a></li>
+    <li><a href="#main">Main</a></li>
   </ul>
- 
-  <ol>
-    <li>This is an example of Ordered list</li>
-    <li>This is an example of Ordered list</li>
-    <li>This is an example of Ordered list</li>
-  </ol>
-
-  <dl>
-    <dt>This is an example of Description list for term and name</dt>
-      <dd>This is an example of Description list for Description Term </dd>
-      <dd>This is an example of Description list for Description Term </dd>
-      <dd>This is an example of Description list for Description Term </dd>
-  </dl>
-
-  <ul>
-    <li><a href="#">This is an example of Link text</a></li>
-  </ul>
-
-  <figure>
-    <img src="html-css.png" alt="This is an example of Image"/>
-    <figcaption>Fig.1 - html-css image by >divbyte_ website</figcaption>
-  </figure>
-
-  <p>This is an example of Cite, marking the source of the quote for <cite>html-css</cite> image by >divbyte_ website</p>
-
-  <p><q>This is an example of Quote, used to mark up quotes embedded in other elements like a paragraph</q></p>
-
-  <p><blockquote>This is an example of Blockquote for large stand alone quotes</blockquote></p>
-  
-  <p>This is an example of <em>Emphasis</em></p>
-
-  <p>This is an example of <strong>STRONG</strong>. Lots of emphasis, strong importance or urgency</p>
-
-  <p>This is an example of a <b>Keyword</b></p>
-
-  <p>This is an example of <i>Another language, technical term, title. Visual only italics</i></p>
-  <p><small>This is an example of smaller text</small></p>
-
+  </header>
+  <main role="main" id="main">
+  <section id="headings-and-paragraph">
+    <article>
+      <h2>This is an example of heading 2</h2>
+      <h3>This is an example of heading 3</h3>
+      <h4>This is an example of heading 4</h4>
+      <h5>This is an example of heading 5</h5>
+      <h6>This is an example of heading 6</h6>
+    </article>
+    <article>
+      <p> This is an example of a paragraph </p>
+    </article>
+  </section>
+  <section id="list-linktext-img-fig-cite-quoate-blockquote-em-strong-keyword-i">
+    <article>
+      <ul>
+        <li>This is an example of Unordered list</li>
+        <li>This is an example of Unordered list</li>
+        <li>This is an example of Unordered list</li>
+      </ul>
+      <ol>
+        <li>This is an example of Ordered list</li>
+        <li>This is an example of Ordered list</li>
+        <li>This is an example of Ordered list</li>
+      </ol>
+      <dl>
+        <dt>This is an example of Description list for term and name</dt>
+          <dd>This is an example of Description list for Description Term </dd>
+          <dd>This is an example of Description list for Description Term </dd>
+          <dd>This is an example of Description list for Description Term </dd>
+      </dl>
+    </article>
+    <article>
+        <a href="#" aria-label="Link Text">This is an example of Link text</a>
+      
+      <ul>
+        <li><a class="one" href="#">This is an example of Link text</a></li>
+        <li><a class="two" href="#">This is an example of Link text</a></li>
+        <li><a class="three" href="#">This is an example of Link text</a></li>
+        <li><a class="four"href="#">This is an example of Link text</a></li>
+      </ul>
+    </article>
+    <article>
+      <figure>
+        <img src="html-css.png" alt="This is an example of Image"/>
+        <figcaption>Fig.1 - html-css image by >divbyte_ website</figcaption>
+      </figure>
+      <p>This is an example of Cite, marking the source of the quote for <cite>html-css</cite> image by >divbyte_ website</p>
+    </article>
+    <article>
+      <p><q>This is an example of Quote, used to mark up quotes embedded in other elements like a paragraph</q></p>
+      <p><blockquote>This is an example of Blockquote for large stand alone quotes</blockquote></p>
+      <p>This is an example of <em>Emphasis</em></p>
+      <p>This is an example of <strong>STRONG</strong>. Lots of emphasis, strong importance or urgency</p>
+      <p>This is an example of a <b>Keyword</b></p>
+      <p>This is an example of <i>Another language, technical term, title. Visual only italics</i></p>
+    </article>
+  </section>
+  </main>
+  <nav role="navigation" id="nav">
+    <ul>
+      <li><a href="#headings-and-paragraph">Headings and paragraph</a></li>
+      <li><a href="#list-linktext-img-fig-cite-quoate-blockquote-em-strong-keyword-i">List, Link Text, Image, Figure, Cite, Quoate, Blockquoate, Emphasis, Strong, Keyword, and Italic</a></li>
+    </ul>
+  </nav>
+  <footer role="contentinfo">
+    <p><small>This is an example of smaller text</small></p>
+  </footer>
 </body>
 </html>

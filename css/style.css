@@ -1,0 +1,42 @@
+
+body {
+  font-size: 14pt;
+  font-family: 'Roboto', sans-serif;
+  background-color:beige;
+  margin: 0 2rem
+}
+header h1 {
+    font-size: 4em;
+    color: aquamarine;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: left;
+    text-indent: 0;
+    text-shadow: 2px 2px 2px black;
+    padding: 2rem 0;
+  }
+a.one:default {
+  color:blue;
+ 
+}
+a.two:visited {
+  color:purple;
+
+}
+ a.three:hover {
+  color:orange;
+
+ }
+ a.four:focus {
+  color:blue;
+
+ }
+ footer p {
+  text-align: center;
+  color: white;
+  border: solid black;
+  background-color: black;
+ }
