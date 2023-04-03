@@ -1,42 +1,47 @@
 
+/*Update body: Add font size, font family, background color, and margin*/
 body {
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   background-color:beige;
   margin: 0 2rem
 }
+/*Update header: Add font properties and text decorations*/
 header h1 {
-    font-size: 4em;
-    color: aquamarine;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.5;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-align: left;
-    text-indent: 0;
-    text-shadow: 2px 2px 2px black;
-    padding: 2rem 0;
-  }
+  font-size: 4em;
+  color: aquamarine;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: left;
+  text-indent: 0;
+  text-shadow: 2px 2px 2px black;
+  padding: 2rem 0;
+}
+/*Update links: Apply different states for links (default, visited, hover, focus)*/
 a.one:default {
   color:blue;
- 
 }
 a.two:visited {
   color:purple;
-
 }
- a.three:hover {
+a.three:hover {
   color:orange;
-
- }
- a.four:focus {
-  color:blue;
-
- }
- footer p {
+}
+a.four:focus {
+  color:pink;
+}
+/*Update image: Modify image size*/
+img {
+  width: 300;
+  height: 200;
+}
+/*Update footer: Align, color, border, and background color*/
+footer p {
   text-align: center;
   color: white;
   border: solid black;
   background-color: black;
- }
+}

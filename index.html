@@ -4,24 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Add title-->
   <title>HTML / CSS Reference Website</title>
+  <!--Link to "style.css"-->
   <link rel="stylesheet" href="css/style.css">
+  <!--Link to Google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!--This is the title of the page-->
+  <!--Apply header Structuring content-->
   <header role="banner">
+  <!--Apply h1 header-->
   <h1>Reference Website</h1>
+  <!--Add Skip links-->
   <ul>
     <li><a href="#nav">Navigation</a></li>
     <li><a href="#main">Main</a></li>
   </ul>
   </header>
+  <!--Add main Structuring content-->
+  <!--Add main Structuring content-->
   <main role="main" id="main">
+  <!--Apply Section Structuring content-->
+  <!--Apply Linking to an element on the same page-->
   <section id="headings-and-paragraph">
+  <!--Apply Article Structuring content-->
     <article>
+      <!--Add h2 - h6 header-->
       <h2>This is an example of heading 2</h2>
       <h3>This is an example of heading 3</h3>
       <h4>This is an example of heading 4</h4>
@@ -29,11 +40,13 @@
       <h6>This is an example of heading 6</h6>
     </article>
     <article>
+      <!--Add paragraph-->
       <p> This is an example of a paragraph </p>
     </article>
   </section>
   <section id="list-linktext-img-fig-cite-quoate-blockquote-em-strong-keyword-i">
     <article>
+      <!--Add lists: ul, ol, dl-->
       <ul>
         <li>This is an example of Unordered list</li>
         <li>This is an example of Unordered list</li>
@@ -52,8 +65,9 @@
       </dl>
     </article>
     <article>
+        <!--Add Link Text and Aria-label-->
         <a href="#" aria-label="Link Text">This is an example of Link text</a>
-      
+      <!--Add classes to links-->
       <ul>
         <li><a class="one" href="#">This is an example of Link text</a></li>
         <li><a class="two" href="#">This is an example of Link text</a></li>
@@ -62,6 +76,7 @@
       </ul>
     </article>
     <article>
+      <!--Insert image and figcaption and cite-->
       <figure>
         <img src="html-css.png" alt="This is an example of Image"/>
         <figcaption>Fig.1 - html-css image by >divbyte_ website</figcaption>
@@ -69,6 +84,7 @@
       <p>This is an example of Cite, marking the source of the quote for <cite>html-css</cite> image by >divbyte_ website</p>
     </article>
     <article>
+      <!--Add q, blockquote, em, strong, b, and i-->
       <p><q>This is an example of Quote, used to mark up quotes embedded in other elements like a paragraph</q></p>
       <p><blockquote>This is an example of Blockquote for large stand alone quotes</blockquote></p>
       <p>This is an example of <em>Emphasis</em></p>
@@ -78,12 +94,14 @@
     </article>
   </section>
   </main>
+  <!--Add nav Structuring content-->
   <nav role="navigation" id="nav">
     <ul>
       <li><a href="#headings-and-paragraph">Headings and paragraph</a></li>
       <li><a href="#list-linktext-img-fig-cite-quoate-blockquote-em-strong-keyword-i">List, Link Text, Image, Figure, Cite, Quoate, Blockquoate, Emphasis, Strong, Keyword, and Italic</a></li>
     </ul>
   </nav>
+  <!--Add Footer Structuring content-->
   <footer role="contentinfo">
     <p><small>This is an example of smaller text</small></p>
   </footer>

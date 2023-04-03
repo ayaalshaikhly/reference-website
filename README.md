@@ -1,51 +1,38 @@
-# reference-website
-Demonstrate commonly used html tags/elements:
-1. headings: h1-h6
-2. p
-3. lists: ul, ol, dl
-4. a
-5. img, figure (img & figcaption), Cite
-7. q
-8. blockquote
-10. em
-11. strong
-12. b
-13. i
-14. small
+HTML file:
+1. Add title 
+2. Link to "style.css"
+3. Link to Google font
+4. Apply header Structuring content
+5. Apply h1 header
+6. Add Skip links
+7. Add main Structuring content
+8. Apply Landmark roles
+9. Apply Section Structuring content
+10. Apply Article Structuring content
+11. Apply Linking to an element on the same page
+12. Add h2 - h6 header
+13. Add paragraph
+14. Add lists: ul, ol, dl
+15. Add Link Text and Aria-label
+16. Insert image and figcaption and cite
+17. Add q, blockquote, em, strong, b, and i
+18. Add nav Structuring content
+19. Add Footer Structuring content
 
-Structuring content:
-1. header
-2. footer
-3. main
-4. section
-5. article
-6. nav
+CSS:
+1. Update body: Add font size, font family, background color, and margin 
+2. Update header: Add font properties and text decorations
+3. Update links: Apply different states for links (default, visited, hover, focus)
+4. Update image: Modify image size 
+5. Update footer: Align, color, border, and background color
 
-Linking to an element on the same page
 
-Comments
 
-Landmark roles
 
-Aria-label
 
-Skip links
 
-Font properties:
-1. font-family
-2. font-size
-3. font-weight
-4. font-style
-5. line-height
-6. font shorthand
 
-Text decorations:
-1. text-transform
-2. text-decoration
-3. text-align
-4. text-indent
-5. text-shadow
 
-Different states for links (default, visited, hover, focus)
 
-Adding a Google font
+
+
