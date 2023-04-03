@@ -23,7 +23,7 @@ CSS:
 1. Update body: Add font size, font family, background color, and margin 
 2. Update header: Add font properties and text decorations
 3. Update links: Apply different states for links (default, visited, hover, focus)
-4. Update image: Modify image size and figcaption 
+4. Update image: Modify image size and figure 
 5. Update footer: Align, color, border, and background color
 
 
