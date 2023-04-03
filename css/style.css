@@ -33,10 +33,14 @@ a.three:hover {
 a.four:focus {
   color:pink;
 }
-/*Update image: Modify image size*/
+/*Update image: Modify image size and figcaption*/
 img {
   width: 300;
   height: 200;
+}
+figcaption {
+  font-style: italic;
+  color: gray;
 }
 /*Update footer: Align, color, border, and background color*/
 footer p {
